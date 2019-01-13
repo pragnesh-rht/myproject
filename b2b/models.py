@@ -51,6 +51,7 @@ class Images(models.Model):
         return new_im
 
     def save(self, *args, **kwargs):
+        super().save(*args, **kwargs)
         img = Image.open(self.post_image.path)
 
         img = Images.make_square(img)
