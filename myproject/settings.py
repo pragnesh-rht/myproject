@@ -27,7 +27,7 @@ SECRET_KEY = '7yo=775c9sk2zn)oe6g_*g2&#w)iu(24ui8aob+=k@k%8$p)@4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['10.0.2.2', 'localhost']
+ALLOWED_HOSTS = ['10.0.2.2', 'localhost', '127.0.0.1']
 
 # Application definition
 
@@ -149,7 +149,8 @@ EMAIL_HOST_USER = os.environ.get('EMAIL_USER')
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
 
 REST_FRAMEWORK = {
-    'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAuthenticatedOrReadOnly',),
+    'DEFAULT_PERMISSION_CLASSES': ('rest_framework.permissions.IsAuthenticatedOrReadOnly',
+                                   ),
     'DEFAULT_AUTHENTICATION_CLASSES': ('rest_framework.authentication.TokenAuthentication',),
     # 'rest_framework_simplejwt.authentication.JWTAuthentication',),
 }

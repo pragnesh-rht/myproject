@@ -60,7 +60,7 @@ class Images(models.Model):
             output_size = (600, 600)
             img.thumbnail(output_size)
             img.save(self.post_image.path)
-        super().save(*args, **kwargs)
+           # super().save(*args, **kwargs)
 
     def __str__(self):
         return self.post.title
