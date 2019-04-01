@@ -36,16 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/b2b/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="139" column="30" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
+            <state relative-caret-position="356">
+              <caret line="130" column="91" lean-forward="true" selection-start-line="130" selection-start-column="91" selection-end-line="130" selection-end-column="91" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/media/background.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -60,10 +65,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/b2b/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+            <state relative-caret-position="300">
+              <caret line="71" column="12" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="12" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#263#1116#0" />
+                <element signature="e#793#810#0" />
+                <element signature="e#852#904#0" />
+                <element signature="e#1006#1116#0" />
+                <element signature="e#1167#1267#0" />
+                <element signature="e#1302#2246#0" />
+                <element signature="e#1614#1818#0" />
+                <element signature="e#1865#2191#0" />
+                <element signature="e#2042#2148#0" />
+                <element signature="e#2224#2246#0" />
+                <element signature="e#2540#2562#0" />
+                <element signature="e#2664#2821#0" />
               </folding>
             </state>
           </provider>
@@ -154,6 +170,11 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Pragnesh Rohit &lt;pragnesh.rht@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -277,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554011626664</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1/4 -fixed ordering of the bidderUpdate.">
+      <created>1554097722360</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1554097722360</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -294,7 +322,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13879709" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.13879709" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.28611898" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -313,9 +341,15 @@
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="fixing image duplicate entry." />
     <MESSAGE value="changed background and title style, home.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed background and title style, home.html" />
+    <MESSAGE value="1/4 -fixed ordering of the bidderUpdate." />
+    <option name="LAST_COMMIT_MESSAGE" value="1/4 -fixed ordering of the bidderUpdate." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/__init__.py">
@@ -535,16 +569,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/b2b/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/b2b/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -576,15 +600,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/b2b/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="71" column="12" selection-start-line="71" selection-start-column="4" selection-end-line="71" selection-end-column="12" />
+          <folding>
+            <element signature="e#263#1116#0" />
+            <element signature="e#793#810#0" />
+            <element signature="e#852#904#0" />
+            <element signature="e#1006#1116#0" />
+            <element signature="e#1167#1267#0" />
+            <element signature="e#1302#2246#0" />
+            <element signature="e#1614#1818#0" />
+            <element signature="e#1865#2191#0" />
+            <element signature="e#2042#2148#0" />
+            <element signature="e#2224#2246#0" />
+            <element signature="e#2540#2562#0" />
+            <element signature="e#2664#2821#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/b2b/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="139" column="30" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
+        <state relative-caret-position="356">
+          <caret line="130" column="91" lean-forward="true" selection-start-line="130" selection-start-column="91" selection-end-line="130" selection-end-column="91" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/background.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
 </project>
