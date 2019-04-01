@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="687b79bd-efd5-4d57-aa14-f8b3bf2b0443" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/b2b/templates/b2b/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/b2b/templates/b2b/home.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/b2b/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+            <state relative-caret-position="536">
+              <caret line="139" column="30" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -85,7 +84,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/b2b/templates/b2b/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
+            <state relative-caret-position="600">
               <caret line="30" column="25" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="25" />
             </state>
           </provider>
@@ -94,22 +93,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/b2b/static/b2b/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
+            <state relative-caret-position="640">
               <caret line="32" column="31" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/b2b/templates/b2b/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="23" selection-end-column="9" />
-              <folding>
-                <element signature="e#128#306#0" expanded="true" />
-                <element signature="e#436#521#0" expanded="true" />
-                <element signature="e#582#687#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="296">
+              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -180,16 +174,16 @@
         <option value="$PROJECT_DIR$/b2b/urls.py" />
         <option value="$PROJECT_DIR$/myproject/wsgi.py" />
         <option value="$PROJECT_DIR$/myproject/urls.py" />
-        <option value="$PROJECT_DIR$/b2b/views.py" />
         <option value="$PROJECT_DIR$/b2b/models.py" />
         <option value="$PROJECT_DIR$/myproject/settings.py" />
         <option value="$PROJECT_DIR$/b2b/templates/b2b/home.html" />
+        <option value="$PROJECT_DIR$/b2b/views.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="360" />
-    <option name="y" value="91" />
+    <option name="y" value="90" />
     <option name="width" value="1515" />
     <option name="height" value="915" />
   </component>
@@ -199,7 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,25 +221,13 @@
             <path>
               <item name="mypro" type="b2602c69:ProjectViewProjectNode" />
               <item name="mypro" type="462c0819:PsiDirectoryNode" />
-              <item name="b2b" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mypro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mypro" type="462c0819:PsiDirectoryNode" />
-              <item name="b2b" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="b2b" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mypro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mypro" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1553952923643</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="changed background and title style, home.html">
+      <created>1554011626663</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554011626664</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -306,9 +294,9 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.13879709" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.13879709" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.28611898" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.28611898" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="3" />
@@ -326,7 +314,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixing image duplicate entry." />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing image duplicate entry." />
+    <MESSAGE value="changed background and title style, home.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed background and title style, home.html" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/site-packages/django/__init__.py">
@@ -539,16 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/b2b/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/b2b/permissions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -576,28 +555,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/b2b/static/b2b/main.css">
+    <entry file="file://$PROJECT_DIR$/b2b/templates/b2b/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="32" column="31" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="31" />
+        <state relative-caret-position="600">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/b2b/templates/b2b/base.html">
+    <entry file="file://$PROJECT_DIR$/b2b/static/b2b/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="25" />
+        <state relative-caret-position="640">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/b2b/templates/b2b/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="296">
+          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b2b/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="139" column="30" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
           <folding>
-            <element signature="e#128#306#0" expanded="true" />
-            <element signature="e#436#521#0" expanded="true" />
-            <element signature="e#582#687#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

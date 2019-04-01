@@ -137,7 +137,7 @@ class BidUpdateView(LoginRequiredMixin, UpdateView):
     def get_context_data(self, **kwargs):
         data = super().get_context_data(**kwargs)
         obj = self.get_object()
-        bidderQS = Bidder.objects.filter(post_id=obj)
+        bidderQS = Bidder.objects.filter(post_id=obj).orderBy('-date_bid')
         data['bidderQS'] = bidderQS
         return data
 
